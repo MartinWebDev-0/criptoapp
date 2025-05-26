@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo.svg">
+    <link rel="stylesheet" href="output.css">
+    <title>CryptoApp</title>
+</head>
+<body class="bg-[#17181c] overflow-x-hidden m-0 p-0">
+
+
+<!-- header -->
+<header class="flex items-center bg-black h-18 w-full fixed top-0 left-0 right-0 px-4">
+  <div class="flex items-center max-w-7xl mx-auto w-full">
+    <div class="flex items-center">
+      <img src="../images/logo.svg" alt="logo" class="w-10 h-full" />
+      <a href="" class="text-white text-2xl font-bold h-full mb-1 ml-1">
+        CryptoApp
+      </a>
+    </div>
+
+    <ul class="hidden text-white text-md font-bold h-full items-center pl-2 md:flex m-0 p-0 flex-grow">
+      <li><a href="" class="bg-yellow-600 p-4">Homepage</a></li>
+      <li><a href="" class="hover:bg-yellow-600 p-4">Buy crypto</a></li>
+      <li><a href="" class="hover:bg-yellow-600 p-4">Markets</a></li>
+      <li><a href="" class="hover:bg-yellow-600 p-4">Sell Crypto</a></li>
+      <li><a href="" class="hover:bg-yellow-600 p-4">Blog</a></li>
+      <li><a href="" class="hover:bg-yellow-600 p-4">BITUSD</a></li>
+    </ul>
+
+    <button class="text-white border border-white rounded-full ml-auto px-4 py-1
+    cursor-pointer hover:border-yellow-600 hover:bg-yellow-600 transition-all duration-200">
+      <p class="m-0">My wallet</p>
+    </button>
+  </div>
+</header>
+
+
+
+ <!-- hero section -->
+<section class="flex flex-col md:flex-row items-center justify-between">
+
+    <div class="flex flex-col mt-20 mx-2 my-2 gap-6 text-center sm:text-left sm:ml-10">
+        <h1 class="text-white text-5xl font-bold">
+              Buy & sell digital assets all in one App.
+          </h1>
+
+        <p class="text-gray-300 text-xl">
+              Coin Cryptex is the easiest, safest, and fastest
+              way to buy & sell crypto asset exchange.
+          </p>
+
+          <button 
+         class="bg-yellow-600 text-white rounded-full w-full p-2.5 sm:w-36 cursor-pointer
+         transition-all duration-200 
+         ">
+         Get started!
+          </button>
+    </div>
+
+    <div class="w-[320px] md:w-[820px] ml-12 mr-16 mt-32 ">
+        <img src="../images/hero-banner.png" alt="Hero Banner">
+      </div>
+  </section>
+
+  
+</section>
+
+
+<!-- crypto section -->
+ 
+
+<section class="ml-10 mt-32">
+
+  <div class="flex justify-between items-center">
+
+<h2 class="text-5xl text-white">Market Update</h2>
+
+<p class="text-white font-bold flex items-center mr-14 cursor-pointer hover:underline hover:text-yellow-600 delay-100">See all coins <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill ml-2 mt-1" viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+</svg></p>
+</div>
+
+<div class="text-white text-lg grid-cols-2 gap-4 mt-8 md:flex ">
+
+<button class="bg-yellow-600 px-4 py-1 rounded-full cursor-pointer">View All</button>
+<button class="hover:bg-yellow-600 px-4 py-1 rounded-full cursor-pointer">Metaverse</button>
+<button class="hover:bg-yellow-600 px-4 py-1 rounded-full cursor-pointer">Entertainment</button>
+<button class="hover:bg-yellow-600 px-4 py-1 rounded-full cursor-pointer">Energy</button>
+<button class="hover:bg-yellow-600 px-4 py-1 rounded-full cursor-pointer">NFT</button>
+<button class="hover:bg-yellow-600 px-4 py-1 rounded-full cursor-pointer">Gaming</button>
+<button class="hover:bg-yellow-600 px-4 py-1 rounded-full cursor-pointer">AI</button>
+
+</div>
+
+
+    <!-- Table -->
+     
+    <table class="min-w-full table-auto border-collapse text-white mt-10">
+
+      <thead>
+        <tr class="">
+          <th class="px-4 py-2 text-left">#</th>
+          <th class="px-4 py-2 text-left">Name</th>
+          <th class="px-4 py-2 text-left">Last price</th>
+          <th class="px-4 py-2 text-left">24h %</th>
+          <th class="px-4 py-2 text-left">Market cap</th>
+          <th class="px-4 py-2 text-left hidden md:flex flex-row">Last 7 days</th>
+        </tr>
+      </thead>
+
+
+     <tr>
+      <td colspan="6"><hr class="border-2 border-white w-auto mr-22 mt-2"></td>
+     </tr>
+
+      <!-- Table Body -->
+       
+      <tbody>
+        
+        <tr class="">
+          <td class="px-4 py-2">1</td>
+          <td><div class="px-4 py-2 flex items-center gap-2"><img src="../images/coin-1.svg" alt="Bitcoin" class="w-6">Bitcoin</div></td>
+          <td class="px-4 py-2">$28</td>
+          <td class="px-4 py-2">+5%</td>
+          <td class="px-4 py-2">$400,000</td>
+          <td class="px-4 py-2 hidden md:flex"><img src="../images/chart-1.svg" alt="Bitcoin chart"></td>
+        </tr>
+
+        <tr class="">
+          <td class="px-4 py-2">2</td>
+          <td><div class="px-4 py-2 flex items-center gap-2"><img src="../images/coin-2.svg" alt="Bitcoin" class="w-6">Ethereum</div></td>
+          <td class="px-4 py-2">$34</td>
+          <td class="px-4 py-2">-3%</td>
+          <td class="px-4 py-2">$200,000</td>
+          <td class="px-4 py-2 hidden md:flex"><img src="../images/chart-2.svg" alt="Ethereum chart"></td>
+        </tr>
+
+        <tr class="">
+          <td class="px-4 py-2">3</td>
+          <td><div class="px-4 py-2 flex items-center gap-2"><img src="../images/coin-3.svg" alt="tehter" class="w-6">Tether</div></td>
+          <td class="px-4 py-2">$34</td>
+          <td class="px-4 py-2">-3%</td>
+          <td class="px-4 py-2">$200,000</td>
+          <td class="px-4 py-2 hidden md:flex"><img src="../images/chart-2.svg" alt="Tether chart"></td>
+        </tr>
+
+        <tr class="">
+          <td class="px-4 py-2">4</td>
+          <td><div class="px-4 py-2 flex items-center gap-2"><img src="../images/coin-4.svg" alt="BNB" class="w-6">BNB</td></div>
+          <td class="px-4 py-2">$34</td>
+          <td class="px-4 py-2">-3%</td>
+          <td class="px-4 py-2">$300,000</td>
+          <td class="px-4 py-2 hidden md:flex"><img src="../images/chart-1.svg" alt="BNB chart"></td>
+        </tr>
+
+        <tr class="">
+          <td class="px-4 py-2">5</td>
+          <td><div class="px-4 py-2 flex items-center gap-2"><img src="../images/coin-5.svg" alt="Solana" class="w-6">Solana</td></div>
+          <td class="px-4 py-2">$34</td>
+          <td class="px-4 py-2">-3%</td>
+          <td class="px-4 py-2">$100,000</td>
+          <td class="px-4 py-2 hidden md:flex"><img src="../images/chart-2.svg" alt="Solana chart"></td>
+        </tr>
+
+        <tr class="">
+          <td class="px-4 py-2">6</td>
+          <td><div class="px-4 py-2 flex items-center gap-2"><img src="../images/coin-6.svg" alt="XRP" class="w-6">XRP</td></div>
+          <td class="px-4 py-2">$34</td>
+          <td class="px-4 py-2">-3%</td>
+          <td class="px-4 py-2">$200,000</td>
+          <td class="px-4 py-2 hidden md:flex"><img src="../images/chart-1.svg" alt="XRP chart"></td>
+        </tr>
+
+        <tr class="">
+          <td class="px-4 py-2">7</td>
+          <td><div class="px-4 py-2 flex items-center gap-2"><img src="../images/coin-7.svg" alt="Cardano" class="w-6">Cardano</td></div>
+          <td class="px-4 py-2">$34</td>
+          <td class="px-4 py-2">-3%</td>
+          <td class="px-4 py-2">$200,000</td>
+          <td class="px-4 py-2 hidden md:flex"><img src="../images/chart-1.svg" alt="Cardano chart"></td>
+        </tr>
+
+        <tr class="">
+          <td class="px-4 py-2">8</td>
+          <td><div class="px-4 py-2 flex items-center gap-2"><img src="../images/coin-8.svg" alt="Avalanche" class="w-6">Avalanche</td></div>
+          <td class="px-4 py-2">$34</td>
+          <td class="px-4 py-2">-3%</td>
+          <td class="px-4 py-2">$100,000</td>
+          <td class="px-4 py-2 hidden md:flex"><img src="../images/chart-2.svg" alt="Avalanche chart"></td>
+        </tr>
+
+
+      </tbody>
+    </table>
+</section>
+
+
+
+
+
+<section class="flex flex-col items-center md:flex-row mt-32">
+  
+<figure class="hidden md:flex items-center">
+    <img src="../images/about-banner.png" alt="" class="w-200 md:ml-10 md:pr-10"/>
+  </figure>
+  <aside class="flex flex-col gap-8 text-center items-center ml-16 mr-8">
+    <h3 class="text-white text-4xl font-bold">What Is CryptoApp</h3>
+    <p class="text-gray-300 text-xl"> 
+      Experience a variety of trading on Bitcost. You can use various types of coin <br> transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.
+    </p>
+    <h3 class="text-white text-2xl font-bold flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#eab308" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>View real-time cryptocurrency prices</h3>
+    <p class="text-gray-300 text-xl"> 
+      Experience a variety of trading on Bitcost. You can use various types of coin <br> transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.
+    </p>
+    <h3 class="text-white text-2xl font-bold flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#eab308" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Buy and sell BTC, ETH, XRP, OKB, Etc...</h3>
+    <p class="text-gray-300 text-xl">
+      Experience a variety of trading on Bitcost. You can use various types of coin <br> transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.
+    </p>
+
+     <button 
+        class="bg-yellow-600 text-white rounded-full w-full p-2.5 cursor-pointer hover:scale-150 hover:shadow-2xl">
+            Explore more!
+        </button>
+      </aside>
+</section>
+
+
+
+
+<footer class="bg-yellow-600 mt-10 gap-10 p-6 flex flex-col items-center md:flex-row md:items-start">
+
+  
+  <div class="flex flex-col">
+    <h4 class="text-xl font-bold text-white">Products</h4>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Spot</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Inverse Perpetual</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">USDT Perpetual</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Exchange</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">LaunchPad</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h4 class="text-xl font-bold text-white">Services</h4>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Buy crypto</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Markets</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Affiliate program</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Trading fee</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Referral program</p>
+  </div>
+  
+
+  
+  <div class="flex flex-col">
+    <h4 class="text-xl font-bold text-white">Support</h4>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">E-learning</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Help center</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">User feedback</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Submit a request</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Rules</p>
+  </div>
+
+  <div class="flex flex-col">
+    <h4 class="text-xl font-bold text-white">About us</h4>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">About the app</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Authenticity check</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Careers</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Business</p>
+    <p class="text-md text-gray-300 hover:underline cursor-pointer">Contacts</p>
+  </div>
+  
+
+  <div class="grid grid-cols-2 lg:flex-row gap-4 items-center md:items-start">
+    <div class="flex">
+      <img src="../images/logo.svg" alt="logo" class="w-10 h-full" />
+      <a href="" class="text-white text-2xl font-bold h-full">
+        CryptoApp
+      </a>
+    </div>
+    <div class="text-white">
+      <p class="text-2xl">Contact US!</p>
+      <p>Phone: 0234/342525254</p>
+      <p>E-mail: CriptoApp@email.com</p>
+    </div>
+  </div>
+</footer>
+
+   
+    
+</body>
+</html>
+
+
+
+  
+
+  
